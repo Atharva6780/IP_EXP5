@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator and Generators</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Basic Calculator</h1>
+        <input type="number" id="num1" placeholder="Enter first number">
+        <input type="number" id="num2" placeholder="Enter second number">
+        <select id="operation">
+            <option value="add">Add</option>
+            <option value="subtract">Subtract</option>
+            <option value="multiply">Multiply</option>
+            <option value="divide">Divide</option>
+        </select>
+        <button onclick="calculate()">Calculate</button>
+        <p id="result"></p>
+
+        <h2>Custom Iterator (Square of Numbers)</h2>
+        <button onclick="iterateSquares()">Get Squares</button>
+        <p id="squares"></p>
+
+        <h2>Prime Numbers Generator</h2>
+        <button onclick="generatePrimes()">Generate Prime Numbers</button>
+        <p id="primes"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
